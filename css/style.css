@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.my-header {
+    height: 80px;
+    line-height: 80px;
+    background-color: aquamarine;
+    background-image: url("../img/pattern.png");
+    background-size: 30%;
+    background: orange; /*Resetta tutte le proprietà di background*/
+}
+
+header {
+    background: orange;
+}
+
+.banner {
+    padding: 20rem 0;
+    font-size: 5rem;
+    text-align: center;
+    color: white;
+    background-image: url("../img/monti.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
